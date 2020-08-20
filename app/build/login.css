@@ -1,0 +1,86 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* margin: auto; */
+    max-width: 38rem;
+    padding: 2rem;
+    overflow: hidden;
+  }
+  
+
+  #appLogo{
+      height: 140px;
+      width: 140px;
+    margin: 0 auto;
+
+  }
+  #appLogo img{
+    height: auto;
+    width: 100%;
+}
+#appName{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#loginContainer{
+    text-align: center;
+    /* background: crimson; */
+   margin: 0 auto;
+    height: 170px;
+    margin-top: 30px;
+    width: 250px;
+}
+.labels{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #cbcbcd;
+    text-transform: uppercase;
+    
+}
+
+.loginInput{
+        height: 24px;
+        border-radius: 6px;
+        width: 230px;
+        outline: none;
+        border: 1px solid gray;
+        text-align: center;
+        padding-left: 10px;
+        /* border: 3px solid #00cc33; */
+        
+}
+#loginBtn{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    height: 36px;
+       background: #4d4dff;
+       color: #f2f2f2;
+     border-color: transparent;
+     border-radius: 4px;
+     outline: none;
+     cursor: pointer;
+}
+#exitBtn{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 32px;
+       background: transparent;
+       color: #3f3f40;
+     border-color: transparent;
+     border-radius: 4px;
+     outline: none;
+     cursor: pointer;
+}
+#exitBtn:hover{
+  
+    background: #e5e5e6;
+    color: white;
+
+}
+   

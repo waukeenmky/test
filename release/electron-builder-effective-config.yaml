@@ -1,0 +1,13 @@
+directories:
+  output: release
+  buildResources: build
+productName: Snipper
+win:
+  target: NSIS
+linux:
+  target:
+    - deb
+    - AppImage
+mac:
+  category: public.app-category.developer-tools
+electronVersion: 2.0.4
